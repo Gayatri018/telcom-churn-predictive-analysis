@@ -32,7 +32,7 @@ Key goals:
 
 A well-structured relational model was developed to clean and join customer, service, and usage data using **MySQL**. Below is the high-level data schema:
 
-![Data Model](datamodel.png)
+![Data Model](images/datamodel.png)
 
 ---
 
@@ -44,7 +44,7 @@ An interactive Power BI dashboard showcases:
 - Usage metrics and service features
 - Monthly churn trends
 
-![Power BI Dashboard](./powerbi_dashboard.png)
+![Power BI Dashboard](images/powerbi_dashboard.png)
 
 > Screenshot taken from interactive dashboard showing churn insights by location, tenure, and service usage.
 
@@ -54,7 +54,7 @@ An interactive Power BI dashboard showcases:
 
 A **Random Forest** model was trained using Python (with Scikit-learn) to classify churn based on multiple attributes. The prediction outputs are integrated into Power BI to enable real-time **Churn Forecasting** dashboards.
 
-![Predictive Dashboard](./predictive_analysis.png)
+![Predictive Dashboard](images/predictive_analysis.png)
 
 **Model Performance:**
 - Accuracy: `~83%`
