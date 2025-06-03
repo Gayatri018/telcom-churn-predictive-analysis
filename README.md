@@ -1,6 +1,6 @@
 # 🔍 Customer Churn & Predictive Analysis
 
-![Project Overview](project.jpg)
+![Project Overview](Images/project.jpg)
 
 > A full-stack data analytics solution to understand customer churn patterns and forecast churn probability using machine learning. This project integrates data engineering, exploratory analysis, and predictive modeling into a powerful visual and analytical story using **Python**, **MySQL**, **Excel**, **Power BI**, and **Random Forest Classifier**.
 
@@ -32,7 +32,7 @@ Key goals:
 
 A well-structured relational model was developed to clean and join customer, service, and usage data using **MySQL**. Below is the high-level data schema:
 
-![Data Model](images/datamodel.png)
+![Data Model](Images/datamodel.png)
 
 ---
 
@@ -44,7 +44,7 @@ An interactive Power BI dashboard showcases:
 - Usage metrics and service features
 - Monthly churn trends
 
-![Power BI Dashboard](images/powerbi_dashboard.png)
+![Power BI Dashboard](Images/powerbi_dashboard.png)
 
 > Screenshot taken from interactive dashboard showing churn insights by location, tenure, and service usage.
 
@@ -54,7 +54,7 @@ An interactive Power BI dashboard showcases:
 
 A **Random Forest** model was trained using Python (with Scikit-learn) to classify churn based on multiple attributes. The prediction outputs are integrated into Power BI to enable real-time **Churn Forecasting** dashboards.
 
-![Predictive Dashboard](images/predictive_analysis.png)
+![Predictive Dashboard](Images/predictive_analysis.png)
 
 **Model Performance:**
 - Accuracy: `~83%`
