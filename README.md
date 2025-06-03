@@ -1,6 +1,6 @@
 # 🔍 Customer Churn & Predictive Analysis
 
-![Project Overview](project.png)
+![Project Overview](project.jpg)
 
 > A full-stack data analytics solution to understand customer churn patterns and forecast churn probability using machine learning. This project integrates data engineering, exploratory analysis, and predictive modeling into a powerful visual and analytical story using **Python**, **MySQL**, **Excel**, **Power BI**, and **Random Forest Classifier**.
 
